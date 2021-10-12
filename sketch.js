@@ -17,7 +17,7 @@ function draw() {
   translate(0, 0, -width);
   rotateX(frameCount / 2);
   rotateY(mouseY);
-  rotateZ(frameCount / 2);
+  rotateZ(frameCount);
 
   translate(-width / 2, -height / 2, -width / 2);
 
@@ -41,7 +41,7 @@ function draw() {
         var b = map(h, 0, 255, mouseX, 255);
 
         let val = slider.value();
-        let big = map(val, 0, width, 2, 300);
+        let big = map(val, 0, width, 2, 600);
         fill(r, g, b);
         translate(x, y, z);
 
