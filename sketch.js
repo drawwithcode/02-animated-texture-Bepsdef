@@ -16,8 +16,8 @@ function draw() {
   scale(3);
   translate(0, 0, -width);
   rotateX(frameCount / 2);
-  rotateY(frameCount / 2);
-  rotateZ(mouseX);
+  rotateY(mouseY);
+  rotateZ(frameCount / 2);
 
   translate(-width / 2, -height / 2, -width / 2);
 
