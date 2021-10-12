@@ -53,17 +53,10 @@ function draw() {
         indexZ += 0.5;
       }
 
-      indexY += 0.1;
+      indexY += 0.4;
     }
-    indexX += 0.1;
+    indexX += 0.3;
   }
 
   start += 0.01;
 }
-
-// let b = noise(xoff) * width;
-// let c = noise(yoff) * height;
-// xoff += 0.001;
-// stroke("red");
-// noFill();
-// line(b, 0, c, height);
