@@ -40,10 +40,7 @@ function draw() {
         var g = map(h, 0, 255, mouseY, 255);
         var b = map(h, 0, 255, mouseX, 255);
 
-        let val = slider.value();
-        let big = map(val, 0, width, 2, 600);
-        fill(r, g, b);
-        translate(x, y, z);
+  
 
         sphere(big);
 
